@@ -50,14 +50,15 @@ var factory = splitio({
 var client = factory.client();
 
 client.on(client.Event.SDK_READY, function() {
-  var treatment = client.getTreatment('double_column');
+
+  var treatment = client.getTreatment('font_change');
 
   if (treatment === 'on') {
     // Insert code for on treatment
-    document.getElementsByTagName("main")[0].classList.add('double-column');
+    document.getElementsByTagName("main")[0].classList.add('different-font');
   } else if (treatment === 'off') {
     // Insert code for off treatment
-    document.getElementsByTagName("main")[0].classList.remove('double-column');
+    document.getElementsByTagName("main")[0].classList.remove('different-font');
   } else {
     // Insert code for control treatment
   }

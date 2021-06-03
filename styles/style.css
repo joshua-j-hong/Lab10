@@ -1,9 +1,9 @@
 /* Main Stylesheet */
 
-* {
+/* * {
   color: #3d3d3d;
   font-family: 'Arial', sans-serif;
-}
+} */
 
 body {
   align-items: center;
@@ -156,3 +156,7 @@ body.single-entry main {
   width: 100%;
 }
 /* Feature Flag End - Double Column */
+
+.different-font {
+  font-family: 'Helvetica';
+}
