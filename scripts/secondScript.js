@@ -56,9 +56,11 @@ client.on(client.Event.SDK_READY, function() {
   if (treatment === 'on') {
     // Insert code for on treatment
     document.getElementsByTagName("body")[0].classList.add('different-font');
+    document.getElementsByTagName("main")[0].classList.add('different-font');
   } else if (treatment === 'off') {
     // Insert code for off treatment
     document.getElementsByTagName("body")[0].classList.remove('different-font');
+    document.getElementsByTagName("main")[0].classList.add('different-font');
   } else {
     // Insert code for control treatment
   }
